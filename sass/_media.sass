@@ -1,0 +1,172 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+
+// ≥992px
++media-breakpoint-down(md)
+  .first__ttl
+    font-size: 60px
+    line-height: 60px
+  .second__pic
+    height: 25vh
+  .price__tbl
+    padding: 5px
+  .price__item-b
+    margin-top: 51px
+// ≥768px
++media-breakpoint-down(sm)
+  // .menu__mobile
+  //   display: block
+  // .menu__list
+  //   flex-direction: column
+  // .menu
+  //   margin-top: 62px
+  //   background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%)
+  //   width: 100%
+  //   position: fixed
+  //   top: -100%
+  //   left: 0
+  //   right: 0
+  //   overflow: auto
+  //   transition: all ease .9s
+  //
+  // .header
+  //   position: fixed
+  //   width: 100%
+  //   top: 0
+  //   left: 0
+  //   z-index: 50
+  //
+  // .header::before
+  // 	content: ''
+  // 	position: absolute
+  // 	top: 0
+  // 	left: 0
+  // 	width: 100%
+  // 	height: 100%
+  // 	background-color: #5e5373
+  // 	z-index: 2
+
+  .menu
+    display: none
+
+  .logo__link
+    padding: 0 20px
+  .menu__link
+    padding: 0 20px
+  .menu__list
+    margin-bottom: 0
+  .first__left
+    margin-top: 67px
+  // .second, .third, .price
+  //   margin-top: 50px
+  // .price
+  //   margin-top: 66px
+  .second__ttl
+    line-height: 35px
+  .second__more-p
+    line-height: 23px
+  .third__blc-p
+    line-height: 20px!important
+  .third__pic
+    max-width: 94%
+  .price__points
+    margin-bottom: 22px
+  .price__item-b
+    margin-top: 36px
+  .price__sub
+    margin-bottom: 14px
+  .second__pic
+    border-radius: 10px
+  .second__pic
+    height: 19vh
+  .second__box-pic
+    margin-top: 9px
+  .third__r
+    margin-top: 50px
+    margin-left: 14px
+  .price__top-black, .price__top, .price__bottom-lnk, .price__bottom-lnk-b
+    line-height: 42px
+  .price__bottom, .price__bottom-black, .price__number, .price__number-plus, .price__point, .price__sub, .price__sub-black, .price__tbl, .price__text, .price__text-black, .price__top, .price__top-black, .price__bottom-lnk-b, .price__bottom-lnk
+    font-size: 13px!important
+  .fotter__item:last-child
+    margin-left: 10px
+  .fotter
+    flex-direction: column
+    // padding-top: 77px
+  .fotter__txt
+    margin-bottom: 0
+  .fotter__link
+    margin-bottom: 10px
+  .fotter__pic
+    max-width: 12%
+
+
+// ≥576px
++media-breakpoint-down(xs)
+  .first__ttl
+    font-size: 42px
+    line-height: 50px
+  .first__link
+    margin-bottom: 10px
+  .second__pic:first-child
+    display: none
+  .second__ttl, .third__ttl
+    max-width: 100%
+  .second__more-p:last-child
+    display: none
+  .second__more-p
+    margin-bottom: 5px
+    margin-right: 0
+    flex-basis: 100%
+  .second__link, .fotter__link
+    display: block
+    text-align: center
+    margin-right: 0
+  .third__r
+    display: none
+  .third__l
+    flex-basis: 100%
+  .second__pic
+    height: 25vh
+  .price__items
+    flex-direction: column
+  .price__item-b
+    margin-top: 0
+    border-radius: 17px 17px 17px 17px
+  .price__bottom-lnk-b
+    border-radius: 0 0 17px 17px
+  .price__ttl
+    display: none
+  .fotter
+    padding-top: 0
+  .price__sub
+    margin-bottom: 0
+  .price__sub-black
+    margin: 0 auto
+  .price__text
+    margin: 0px auto
+  .price__bottom-lnk, .price__bottom-lnk-b, .price__top, .price__top-black
+    line-height: 30px
+  .price__item-w
+    margin-bottom: 5px
+  .fotter__item:last-child
+    display: none
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
